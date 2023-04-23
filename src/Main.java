@@ -1,13 +1,9 @@
 
 public class Main {
     public static void main(String[] args) {
-        Array array = new Array(1,2,5,6,7);
+        Array array = new Array(1,2,3,4,5);
         array.GET();
-        array.SUM();
-
-        array.ReWrite(3,8,0);
-        array.GET();
-
+        array.Length(array);
 
 
 
